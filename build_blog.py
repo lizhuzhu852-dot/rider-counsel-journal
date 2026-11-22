@@ -72,6 +72,39 @@ articles=[
 ('Avoid double counting','If the same charge appears in a bill and an account summary, connect the entries rather than treating them as separate expenses. Mark an amount as unknown when the document does not establish it. The inventory should make uncertainty visible.'),
 ('Keep personal notes in a separate section','If you keep notes about practical disruptions, date them and distinguish observations from estimates. Do not turn an expense total into a legal valuation or infer an insurer’s obligations from the table.'),
 ('Take the questions to a professional','Ask a licensed local attorney what further information would be needed for an assessment and which assumptions remain unresolved. This site does not provide settlement advice or recommend accepting or rejecting an offer.')])]
+gear_slug = "motorcycle-insurance-helmet-riding-gear-after-crash"
+gear_article = (
+    gear_slug,
+    "insurance",
+    "Does motorcycle insurance cover a damaged helmet after a crash?",
+    "It can, if your policy covers riding apparel and the crash qualifies. Here’s how to check the wording and document a helmet, jacket or bike accessory.",
+    [
+        (
+            "Find the coverage you had on the day of the crash",
+            "Pull out the declarations page for the policy period that includes the crash date. It lists the coverages you selected. Then look in the policy and its endorsements for terms such as “safety riding apparel,” “protective gear” and “accessories.” If you find a dollar amount, check what it applies to. A limit for all apparel damaged in a single crash works differently from a limit for each item. "
+            "Ask the adjuster to identify the clause, covered event, limit and deductible that apply to your own gear. "
+            "For one example of how an insurer draws the line, Progressive describes riding apparel and custom motorcycle parts in separate sections of its "
+            '<a href="https://www.progressive.com/motorcycle/coverages/">motorcycle coverage guide</a>.'
+        ),
+        (
+            "Photograph the helmet and set it aside",
+            "Once you are safe, take a photo of the whole helmet, a close-up of the impact area and a readable photo of the model and size labels. Write down whether you were wearing it when it struck the ground and what you remember about the impact. If you do not remember, leave that detail open. "
+            "A photograph can show a scrape, but it cannot tell you how well the liner will protect you on another ride. SHOEI recommends replacing a helmet that sustained a significant impact while worn because the absorbing liner can be damaged even when the shell looks intact. Follow your own manufacturer’s guidance. Keep the helmet out of use and ask whether the adjuster needs to see it before you discard it. "
+            '<a href="https://shoei-helmets.com/support/impact-inspection.html">SHOEI’s impact guidance</a>.'
+        ),
+        (
+            "Separate what you wore from what was attached to the bike",
+            "Start with one line each for the helmet, jacket, boots and any mounted equipment. For a damaged luggage rack, note whether it came with the bike or was added later. Ask the repair shop whether the rack is already on its estimate and record that line number. "
+            "The Minnesota Department of Commerce specifically advises riders to check accessory coverage for additions and aftermarket parts. That distinction makes a useful question for your insurer wherever you ride. "
+            '<a href="https://mn.gov/commerce/insurance/auto/atvs-boats-motorcycles/">Minnesota Department of Commerce motorcycle insurance guide</a>.'
+        ),
+        (
+            "Record the price you paid and the price you found today",
+            "For each item, attach the dated receipt if you have it. Save a separate dated quote for the same model, or identify the closest available replacement and explain the difference. If a receipt is missing, look for an order confirmation or an itemized invoice from the seller. A card statement may establish what you spent at a shop while leaving the particular item uncertain. Mark that gap and ask what other proof the adjuster will accept."
+        ),
+    ],
+)
+articles.insert(0, gear_article)
 aba='https://www.americanbar.org/groups/public_education/resources/law_issues_for_consumers/everyday-law/legal-help/questions_to_ask_a_lawyer/'
 css='''*{box-sizing:border-box}body{margin:0;background:#f4f6f7;color:#152c36;font:17px/1.7 Arial,sans-serif}a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}header{background:#fff;border-bottom:1px solid #d8e0e3;padding:22px 6%;display:flex;justify-content:space-between;align-items:center;gap:25px}.logo{font-size:25px;font-weight:800;letter-spacing:-1px}.logo i{color:#667d21;font-style:normal}nav{display:flex;gap:25px;font-size:14px}main{max-width:1280px;margin:auto;padding:48px 5%}.hero{background:#142e39;color:white;display:grid;grid-template-columns:1.2fr 1fr;overflow:hidden;border-radius:6px;margin-bottom:48px}.hero>div{padding:48px}.hero h1{font-size:clamp(38px,4.7vw,64px);line-height:1.08;letter-spacing:-2px;font-weight:500;margin:16px 0 24px}.hero p{color:#cad8dd}.hero .photo{min-height:360px;background:linear-gradient(90deg,#142e3922,#142e3900),url(https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80) center/cover}.kicker{font-size:13px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#697e22}.hero .kicker{color:#dff887}.button,button{display:inline-block;border:0;border-radius:3px;background:#dff887;color:#142e39;padding:13px 20px;font-size:15px;font-weight:bold;cursor:pointer}h2{font-size:32px;line-height:1.25;font-weight:500;letter-spacing:-.7px}h3{font-size:23px;line-height:1.3;font-weight:500}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:white;padding:28px;border:1px solid #dfe5e8;border-radius:5px}.card p{font-size:16px;color:#536970}.meta{font-size:13px;color:#607880}.row{display:flex;justify-content:space-between;align-items:center;gap:20px}.topics{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:26px 0 48px}.topic{background:#e6ecef;padding:20px;border-top:3px solid #a1b640}.topic p{font-size:14px;color:#536970}.ad{padding:24px;text-align:center;border:1px dashed #b6c3ca;margin:45px 0;background:#edf1f3;color:#627881;font-size:12px;letter-spacing:2px}.ad small{display:block;letter-spacing:0;font-size:13px}.search{width:300px;max-width:100%;font:16px Arial;padding:13px;border:1px solid #b8c6cc;border-radius:3px}.notice{background:#e8eef1;padding:20px;font-size:14px;margin:25px 0;color:#4f6872}.reading{max-width:820px;background:white;padding:40px;margin:auto;border:1px solid #dfe5e8}.reading h1{font-size:43px;line-height:1.15;letter-spacing:-1px}.reading h2{font-size:27px;margin-top:40px}.reading p{color:#344f5b}.reading li{margin:12px 0}.reading a{color:#456b10;text-decoration:underline}.toc{padding:20px;background:#f1f5f6}.toc a{display:block;margin:7px 0}.empty{padding:30px}footer{background:#142e39;color:#c3d2d8;padding:35px 6%;font-size:14px;margin-top:45px}footer a{margin-right:22px}.tools{margin-top:30px;background:#edf2e3;padding:24px}label{display:block;margin:10px 0}.standalone article{margin:45px 0}#search-status{font-size:14px;color:#597078}@media(max-width:850px){nav{flex-wrap:wrap;gap:12px}.hero{grid-template-columns:1fr}.hero>div{padding:30px}.hero .photo{min-height:230px}.grid{grid-template-columns:1fr 1fr}.topics{grid-template-columns:1fr 1fr}.row{align-items:start;flex-direction:column}header{align-items:start;flex-direction:column}.reading{padding:25px}.reading h1{font-size:33px}}@media(max-width:520px){.grid{grid-template-columns:1fr}.topics{grid-template-columns:1fr 1fr}main{padding:25px 5%}}'''
 def link(slug):return f'/{slug}/'
@@ -91,7 +124,7 @@ def card(a):
 ad='<aside class="ad" aria-label="Inactive advertisement placeholder">ADVERTISEMENT<small>Reserved space · No live ads</small></aside>'
 intro='<section class="hero"><div><div class="kicker">The motorcycle injury resource</div><h1>Clear information.<br>A more informed<br>road ahead.</h1><p>Practical reading on choosing a motorcycle injury lawyer, organizing accident records, and preparing better questions.</p><a class="button" href="/motorcycle-injury-lawyer/">Start with the essential guide</a></div><div class="photo" role="img" aria-label="A motorcycle parked outdoors"></div></section>'
 topics='<h2>Explore by topic</h2><div class="topics">'+''.join(f'<a class="topic" href="/topics/{s}/"><strong>{t}</strong><p>{d}</p></a>' for s,t,d in categories)+'</div>'
-search='<div class="row"><h2>From the journal</h2><label><span class="meta">Find a guide</span><br><input class="search" id="search" type="search" placeholder="Search fees, records, lawyer…"></label></div><p id="search-status" aria-live="polite">6 guides</p>'
+search=f'<div class="row"><h2>From the journal</h2><label><span class="meta">Find a guide</span><br><input class="search" id="search" type="search" placeholder="Search fees, records, lawyer…"></label></div><p id="search-status" aria-live="polite">{len(articles)} guides</p>'
 js='''<script>document.getElementById('search').addEventListener('input',function(){let n=0;document.querySelectorAll('[data-search]').forEach(c=>{c.hidden=!c.dataset.search.includes(this.value.trim().toLowerCase());if(!c.hidden)n++});document.getElementById('search-status').textContent=n?n+' guides found':'No matching guides. Try records, lawyer, or fees.'});</script>'''
 home=intro+topics+search+'<div class="grid">'+''.join(card(a) for a in articles)+'</div>'+ad+'<section class="notice"><strong>How to use this journal</strong><p>Start with a topic, make a list of questions, and consult a qualified professional for advice about your situation. Articles are AI-assisted educational drafts. There is no attorney review or case evaluation service on this site.</p><a href="/about/">Read our editorial approach</a></section>'+js
 write('index.html',wrap('Motorcycle injury lawyer guides, records & insurance questions','An independent motorcycle injury blog with practical consultation, document organization, insurance correspondence, and fee comparison guides.',home,'/'))
@@ -170,6 +203,27 @@ article_examples = {'motorcycle-insurance-claim-log': '<section><h2>A sample log
                                   'href="https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_5_fees/">ABA '
                                   'Model Rule 1.5, paragraph (c)</a>.</p></section>'}
 
+
+article_examples[gear_slug] = """
+<section>
+  <h2>A three-item example for the adjuster</h2>
+  <p>Suppose you land on your right side in a crash. The helmet strikes the road, the jacket sleeve tears, and a luggage rack bends. Here is how the same rider could record all three. The dollar figures are illustrative.</p>
+  <div class="gear-table"><table>
+    <caption>Sample damaged-gear inventory</caption>
+    <thead><tr><th scope="col">Item</th><th scope="col">Evidence and amounts</th><th scope="col">Question to resolve</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Full-face helmet</th><td>Model label and impact photos. Purchase receipt missing. Same-model quote of $340 saved today.</td><td>Will the retailer’s order history and these photos identify the model?</td></tr>
+      <tr><th scope="row">Armored jacket</th><td>Right sleeve torn. Original receipt for $280. Current replacement quote of $325.</td><td>Which valuation rule applies? The receipt and quote describe one jacket.</td></tr>
+      <tr><th scope="row">Aftermarket rack</th><td>Broken mount. Repair estimate already includes $190 on line 6.</td><td>Will you handle line 6 with the bike repairs or under accessory coverage?</td></tr>
+    </tbody>
+  </table></div>
+  <p>Adding $280 and $325 would count the jacket twice. Adding the $190 rack to the full shop estimate would count the rack twice, too. Leave the amount payable blank until the adjuster explains the treatment of each item.</p>
+  <h2>A message you can send with the inventory</h2>
+  <blockquote>Attached are my gear inventory, photos and the shop estimate. Please identify the policy section that applies to each item, any limit or deductible, and how you will value the loss. I still have the damaged items. Which ones do you need to inspect, and what records would you accept for the helmet’s missing receipt?</blockquote>
+  <p>Save the reply with the claim number and date in your <a href="/motorcycle-insurance-claim-log/">insurance claim log</a>. If you are also meeting a motorcycle injury lawyer, bring a copy alongside the <a href="/documents-for-motorcycle-lawyer-consultation/">documents for your consultation</a>.</p>
+</section>
+"""
+
 def articlebody(a):
     s,k,t,d,sections=a
     toc='<nav class="toc" aria-label="On this page"><strong>In this guide</strong>'+''.join(f'<a href="#{s}-{i}">{h}</a>' for i,(h,p) in enumerate(sections))+'</nav>'
@@ -186,6 +240,13 @@ policies={
 'privacy':('Privacy notice','<p>This pre-launch edition has no forms, user accounts, analytics scripts, advertising scripts, or document upload service. The search function filters the page in your browser without sending search terms to an application server.</p><h2>External services</h2><p>The home page loads a motorcycle image from images.unsplash.com. Your browser contacts that service to retrieve the image. External reference links take you to other websites with their own privacy practices. Hosting providers may process technical request data under their own terms.</p><h2>Before advertising is enabled</h2><p>No AdSense code is currently installed. Before enabling ads, the operator must update this notice for the actual vendors, data uses, contact details, and applicable consent choices. This draft does not claim that a consent platform or regional advertising configuration is already operating.</p>'),
 'disclosure':('Advertising & independence','<p>This website is intended to support advertising-funded educational publishing. All advertisement boxes in this edition are inactive layout placeholders. No AdSense publisher ID, live ad unit, or affiliate link is installed.</p><h2>Separation from editorial content</h2><p>Future advertisements should be clearly distinguishable from articles and navigation. An advertiser’s appearance would not constitute an editorial endorsement or attorney recommendation. Readers are not asked to click advertisements to support the site.</p><h2>No commercial claims</h2><p>No Google approval, search ranking, traffic, or revenue is claimed. Before enabling advertising, the operator needs an approved account and site configuration, updated privacy disclosures, and any applicable consent setup.</p>')}
 for s,(t,b) in policies.items():write(s+'/index.html',wrap(t,t+' for Rider Counsel Journal','<article class="reading"><h1>'+t+'</h1>'+b+'</article>',f'/{s}/'))
+css += """
+.gear-table table{width:100%;border-collapse:collapse;text-align:left;font-size:1rem}
+.gear-table caption{text-align:left;padding-bottom:.6rem;font-weight:700}
+.gear-table td,.gear-table th{border-bottom:1px solid #d8e0e3;padding:.65rem .45rem;vertical-align:top}
+.gear-table thead{background:#edf2e3}
+@media(max-width:520px){.gear-table td,.gear-table th{padding:.4rem .25rem;font-size:.9rem;overflow-wrap:anywhere}}
+"""
 write('style.css', css + '\nnav.toc{display:block}.topic p{line-height:1.5}')
 urls=['/']+[f'/topics/{s}/' for s,t,d in categories]+[link(a[0]) for a in articles]+[f'/{s}/' for s in policies]
 write('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+origin+u+'</loc></url>' for u in urls)+'</urlset>')

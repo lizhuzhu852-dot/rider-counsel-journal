@@ -284,3 +284,7 @@ for url_path in urls:
                 raise ValueError(f"Broken link on {page}: {target}")
 
 print(f"Built {len(urls)} pages and a 404 page. Canonical origin: {origin}")
+
+# The former Cloudflare production site forwards bookmarks to their original paths.
+if os.environ.get("CF_PAGES") == "1" and os.environ.get("CF_PAGES_BRANCH") == "main":
+    write("_redirects", "/* https://motorcycle-injury-lawyer-guide.lwg8816087.chatgpt.site/:splat 301\n")

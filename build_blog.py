@@ -80,7 +80,8 @@ def footer():return '<footer><p><strong>Rider Counsel Journal</strong> · Indepe
 def wrap(title,desc,body,path,kind='WebPage'):
     data={'@context':'https://schema.org','@type':kind,'headline':title,'description':desc,'url':origin+path}
     if kind=='Article':data.update(datePublished='2026-11-22',author={'@type':'Organization','name':'Rider Counsel Journal'},publisher={'@type':'Organization','name':'Rider Counsel Journal'})
-    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+html.escape(title)+' | Rider Counsel Journal</title><meta name="description" content="'+html.escape(desc,quote=True)+'"><link rel="canonical" href="'+origin+path+'"><link rel="stylesheet" href="/style.css"><script type="application/ld+json">'+json.dumps(data)+'</script></head><body>'+header()+'<main>'+body+'</main>'+footer()+'</body></html>'
+    verification = '<meta name="google-site-verification" content="np08wjORBDKQYcKoIJ9Ln3thgTChkrzTNdFdEnkQt3c" />' if path == '/' else ''
+    return '<!doctype html><html lang="en"><head><meta charset="utf-8">'+verification+'<meta name="viewport" content="width=device-width,initial-scale=1"><title>'+html.escape(title)+' | Rider Counsel Journal</title><meta name="description" content="'+html.escape(desc,quote=True)+'"><link rel="canonical" href="'+origin+path+'"><link rel="stylesheet" href="/style.css"><script type="application/ld+json">'+json.dumps(data)+'</script></head><body>'+header()+'<main>'+body+'</main>'+footer()+'</body></html>'
 def write(path,content):
     p=out/path;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(content)
 def catname(k):return next(t for s,t,d in categories if s==k)
